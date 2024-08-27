@@ -1,0 +1,16 @@
+
+k ="TCS is the largest IT service company in india , headquatered in Mumbai , and also the largest employee base."
+k = k.split(" ")
+l={}
+i= {}
+for word in k:
+    if word not in l:
+        l[word]+=1
+        for word in k:
+            for char in word:
+                if char not in i:
+                    i[char] = 1
+                    i[char]+= 1
+                    
+                    print(k)
+        
